@@ -77,7 +77,7 @@ QtObject {
     property bool fuelLevel
 
     /* State change bool */
-    property bool booting: true
+    property bool booting: false
     readonly property real bootDuration: 5000
 
     property Timer bootTimer: Timer{

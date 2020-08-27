@@ -377,6 +377,7 @@ Item {
             y: 134
             width: 200
             height: 200
+            rotation: -136
 
             Image {
                 id: rpm_needle_195_65
@@ -1124,7 +1125,8 @@ Item {
     }
 }
 
-/*##^## Designer {
-    D{i:0;width:390;height:500}D{i:1828;text__AT__NodeInstance:"0"}D{i:1848;currentFrame__AT__NodeInstance:0}
+/*##^##
+Designer {
+    D{i:0;formeditorColor:"#000000";height:500;width:390}D{i:40}
 }
- ##^##*/
+##^##*/

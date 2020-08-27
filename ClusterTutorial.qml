@@ -50,12 +50,20 @@
 
 import QtQuick 2.10
 import ClusterTutorial 1.0
+import Data 1.0 as Data
 
 Item {
     width: Constants.width
     height: Constants.height
 
-    Cluster_Art {
+    Backgrounds_195_610 {
+        x: 0
+        y: 0
+    }
 
+    Rpm_dial_195_83 {
+        anchors.centerIn: parent
+        displayRpm: Data.Values.displayRpm
+        rpmFrame: Data.Values.rpm
     }
 }
